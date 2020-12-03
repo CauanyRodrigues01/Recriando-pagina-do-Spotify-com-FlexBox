@@ -1,0 +1,76 @@
+* {
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+#coluna-esquerda {
+  background: #121212;
+}
+li a {
+  text-decoration: none;
+}
+li a:hover {
+  color: white;
+}
+#main {
+  background: linear-gradient(
+    180deg,
+    rgba(196, 196, 196, 0) 0%,
+    rgba(164, 164, 164, 0.1875) 0%,
+    #121212 0%,
+    rgba(51, 51, 51, 0.845376) 9.62%,
+    rgba(36, 36, 36, 0.930206) 28.93%,
+    rgba(31, 31, 31, 0.959199) 40.45%,
+    rgba(27, 27, 27, 0.980487) 54.34%,
+    #181818 82.79%
+  );
+  overflow: auto;
+}
+#main p {
+  color: white;
+}
+#container-main > p {
+  font-size: 50px;
+}
+#classificar {
+  align-items: center;
+}
+#classificar p {
+  font-size: 20px;
+}
+#classificar select {
+  background-color: #666161;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 35px;
+}
+.artista p {
+  text-align: center;
+}
+#navegar-por-amigos {
+  background: #121212;
+  overflow: auto;
+  text-align: center;
+}
+#navegar-por-amigos p {
+  color: white;
+  font-size: 20px;
+}
+#botao-encontrar {
+  border: 1px solid #b3b3b3;
+  background-color: #282828;
+  color: white;
+  font-size: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+#barra-de-controle-musical {
+  background-color: #282828;
+}
+#barra {
+  background-color: #b3b3b3;
+}
+#barra-menor {
+  background-color: #b3b3b3;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="public\css\reset.css" />
+    <link rel="stylesheet" href="public\css\style.css" />
+    <link rel="stylesheet" href="public\css\layout.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex">
+      <div id="coluna-esquerda">
+        <div id="container-coluna-esquerda">
+          <nav id="menu">
+            <a href="/"><img src="public/img/mais-tres-pontos-indicador.svg" alt="Ver mais" /></a>
+            <ul id="menu-principal">
+              <li>
+                <img src="public/img/home.svg" alt="Ir para início" />
+                <a href="/">Início</a>
+              </li>
+              <li>
+                <img src="public/img/globo.svg" alt="Navegar" />
+                <a href="/">Navegar</a>
+              </li>
+              <li>
+                <img src="public/img/sinal.svg" alt="Escutar rádio" />
+                <a href="/">Rádio</a>
+              </li>
+            </ul>
+            <ul id="menu-biblioteca">
+              <p>SUA BIBLIOTECA</p>
+              <li><a href="/">Feito para você</a></li>
+              <li><a href="/">Tocadas recentemente</a></li>
+              <li><a href="/">Músicas Curtidas</a></li>
+              <li><a href="/">Álbuns</a></li>
+              <li><a href="/">Artistas</a></li>
+              <li><a href="/">Podcastas</a></li>
+            </ul>
+            <ul id="menu-playlists">
+              <p>PLAYLISTS</p>
+              <li><a href="/">Infantil</a></li>
+              <li><a href="/">Toy Story Playlist</a></li>
+              <li><a href="/">Louvores internacionais</a></li>
+              <li><a href="/">Louvores</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div id="main">
+        <div id="container-main">
+          <div id="opcoes-inicio">
+            <div>
+              <a href="/"><img src="public/img/voltar.svg" alt="seta apontando para a esquerda"/></a>
+              <a href="/" ><img src="public/img/proximo.svg"
+                  alt="seta apontando para a direita"/></a>
+              <img src="public/img/ampliacao.svg" alt="lupa" />
+              <input type="text" id="buscar" name="buscar" value="Buscar" />
+            </div>
+            <div id="usuario">
+              <img src="public/img/usuario.svg" alt="usuario" />
+              <p>Usuário</p>
+              <a href="/"
+                ><img
+                  src="public/img/ver mais sobre usuario.svg"
+                  alt="seta apontando para baixo"
+              /></a>
+            </div>
+          </div>
+          <p>Artistas</p>
+          <hr />
+          <div id="filtrar">
+            <img src="public/img/ampliacao.svg" alt="lupa" />
+            <p style="color: #b3b3b3">Filtrar</p>
+          </div>
+          <div id="classificar">
+            <p>Classificado por</p>
+            <select>
+              <option>Nome</option>
+              <option>Relevante</option>
+            </select>
+          </div>
+          <hr />
+          <div id="artistas">
+            <div class="artista">
+              <a href="/"><img src="public/img/Bon.jpg" alt="Imagem da banda Bon Jovi"/></a>
+              <p>Bon Jovi</p>
+            </div>
+            <div class="artista">
+              <a href="/"><img src="public/img/Jeramy.jpg" alt="Imagem do cantor Jeramy Camp"/></a>
+              <p>Jeramy Camp</p>
+            </div>
+            <div class="artista">
+              <a href="/"><img src="public/img/kutless.jpg" alt="Imagem de Kutless"/></a>
+              <p>Kutless</p>
+            </div>
+            <div class="artista">
+              <a href="/"><img src="public/img/Linkin Park.jpg" alt="Imagem da banda musical Linkin Park"/></a>
+              <p>Linkin Park</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navegar-por-amigos">
+        <div id="container-amigos">
+          <p>Veja o que seus amigos estão tocando</p>
+          <button id="botao-encontrar">ENCONTRAR AMIGOS</button>
+        </div>
+      </div>
+
+      <div id="barra-de-controle-musical">
+        <div id="container-barra">
+          <div id="controle-de-musica">
+            <a href="/"><img src="public/img/embaralhar.svg" alt="setas para alternar"/></a>
+            <a href="/"><img src="public/img/voltar musica.svg" alt="seta para anterior"/></a>
+            <a href="/"><img src="public/img/botao-play.svg" alt="play" style="width: 25px"/></a>
+            <a href="/"><img src="public/img/proxima musica.svg" alt="seta para o proximo"/></a>
+            <a href="/"><img src="public/img/repetir.svg" alt="duas setas para repetir"/></a>
+            <div id="barra">
+              <!--barra de tempo de musica-->
+            </div>
+          </div>
+          <div id="outros-controles">
+            <a href="/"><img src="public/img/lista-de-reproducao.svg" alt="ver lista de reprodução"/></a>
+            <a href="/"><img src="public/img/smartphone-pc.svg"alt="tela de computador ao lado de um smartphone"
+            /></a>
+            <img src="public/img/alto-falante.svg" alt="microfone"/>
+            <div id="barra-menor">
+              <!--barra de tempo de musica-->
+            </div>
+            <a href="/"><img src="public/img/expandir.svg" alt="duas setas contrárias"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

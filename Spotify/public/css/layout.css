@@ -1,0 +1,140 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#coluna-esquerda {
+  flex-basis: 15%;
+  overflow-y: auto;
+  height: auto;
+}
+#container-coluna-esquerda {
+  padding: 24px;
+}
+#menu ul {
+  margin: 20px;
+}
+#menu-principal li {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-bottom: 10px;
+}
+#menu-principal li a {
+  padding-left: 10px;
+}
+#main {
+  flex-basis: 70%;
+  overflow-y: auto;
+  height: auto;
+}
+#container-main {
+  padding: 10px 24px 24px 24px;
+}
+#opcoes-inicio {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+#opcoes-inicio div {
+  display: flex;
+}
+#opcoes-inicio img {
+  margin: 5px;
+}
+#buscar {
+  border-radius: 50px;
+  height: 24px;
+  color: black;
+}
+#filtrar {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+}
+#filtrar p, #usuario p {
+  align-self: center;
+  margin-left: 5px;
+}
+#classificar {
+   display: flex;
+}
+#classificar select{
+  margin-left: 10px;
+}
+.artista {
+  padding: 10px;
+  margin: 20px;
+}
+.artista p {
+  margin: 15px;
+}
+#artistas {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+}
+#artistas img {
+  border-radius: 50%;
+  width: 150px;
+}
+#navegar-por-amigos {
+  flex-basis: 15%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#botao-encontrar {
+  min-height: 30px;
+  width: auto;
+  padding: 5px 15px 5px 15px;
+  margin-top: 40px;
+}
+#container-amigos {
+  margin: 10px;
+}
+#barra-de-controle-musical {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+}
+#barra {
+  height: 4px;
+  border-radius: 50px;
+  width: 450px;
+}
+#barra-de-controle-musical img {
+  width: 15px;
+  margin: 10px 15px 10px 15px;
+}
+#controle-de-musica {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  text-align: center;
+}
+#outros-controles {
+  float: right;
+  margin-top: 15px;
+}
+#outros-controles img{
+  margin: 10px 5px 10px 5px;
+}
+#barra-menor {
+  display: inline-block;
+  height: 4px;
+  border-radius: 50px;
+  width: 90px;
+}
+li a {
+  display: block;
+  padding: 8px 0px 8px 0;
+}
+img {
+  width: 24px;
+  vertical-align: middle;
+}
