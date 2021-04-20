@@ -1,5 +1,5 @@
 # Clonagem da página do Spotify
- Recriação de uma página web do Spotify usando FlexBox
+ Recriação de uma página web estática do Spotify usando FlexBox
 ## Objetivo
  ![spotify](https://user-images.githubusercontent.com/69735292/115403798-20727a00-a1c3-11eb-971b-2037cc6589a9.png)
 ## Clonagem
